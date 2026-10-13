@@ -1,10 +1,23 @@
 import random
 import requests 
 import time
+import keyboard
 
 request_count = 0 
 valid_urls_found = 0
 critical_events = 0
+
+print(repr('TinyURL Resolver. Created by iRustedzz. "TinyURL Resolver" © Copyright 2026 Russell Rags'))
+
+time.sleep(2.5)
+
+print(
+    "DISCLAIMER: TinyURL Resolver is an independent project and is not "
+    "affiliated with, endorsed by, sponsored by, or otherwise associated "
+    "with TinyURL. Use at your own risk."
+)
+
+
 
 letters_and_numers = [
     "a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
